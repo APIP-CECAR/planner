@@ -1,0 +1,17 @@
+{
+  "name": "algoritmo_planeador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/APIP-CECAR/planner.git",
+  "author": "ALEXANDER ENRIQUE TOSCANO RICARDO <atoscano@correo.unicordoba.edu.co>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon aplication.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "strips": "^0.0.10"
+  }
+}

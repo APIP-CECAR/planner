@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/atoscano/.nvm/versions/node/v14.20.1/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /usr/local/opt/mongodb-community@4.4/bin:/Users/atoscano/.nvm/versions/node/v14.20.1/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/opt/homebrew/Cellar/mongodb-community/6.0.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/mongodb-community@4.4/bin:/Users/atoscano/opt/anaconda3/bin:/Users/atoscano/opt/anaconda3/condabin:/Users/atoscano/.nvm/versions/node/v14.20.1/bin:/opt/homebrew/opt/mongodb-community@4.4/bin:/opt/homebrew/Cellar/mongodb-community/6.0.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
